@@ -12,5 +12,6 @@ class ChoiceInline(admin.TabularInline):
 class QuestionAdmin(admin.ModelAdmin):
     inlines = [ChoiceInline]
 
+
 # Optionally expose Choice directly too
 # admin.site.register(Choice)
