@@ -31,10 +31,10 @@ DEBUG = False
 # Update ALLOWED_HOSTS
 ALLOWED_HOSTS = [
     "djangotutorial-dev222.us-east-1.elasticbeanstalk.com",
-    "*",
+    ".elasticbeanstalk.com",
     "localhost",
     "127.0.0.1",
-]   
+]
 
 
 # Application definition
